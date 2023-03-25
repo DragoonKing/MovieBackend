@@ -13,7 +13,7 @@ const movieRouter = require('./routes/moviesRoutes');
 const bookingRouter=require('./routes/bookingRoutes');
 const cors=require('cors');
 // PORT NUMBER 
-const PORT=1000;
+const PORT=10000;
 app.use(cors());
 
 
