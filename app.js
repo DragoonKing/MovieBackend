@@ -13,7 +13,7 @@ const movieRouter = require('./routes/moviesRoutes');
 const bookingRouter=require('./routes/bookingRoutes');
 const cors=require('cors');
 // PORT NUMBER 
-const PORT=10000;
+const PORT;
 app.use(cors());
 
 
@@ -27,5 +27,5 @@ app.use('/booking',bookingRouter)
 
 
 app.listen(PORT,()=>{
-    console.log(`SERVER RUNNING ON 10000`);
+    console.log(`SERVER RUNNING ON PORT`);
 })
